@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<!--This main starts for our lecture 1-Dave gray(this directs us to the homepage)-->
+<html lang="en"><!--root element of file-->
+<!--Attributes are been used to add more information to the tag (here lang acts as a attribute)-->
+<head>
+  <!--it has all the meta data (data with a data that is important but we dont want it to display on webpage) acts as a container-->
+    <meta charset="UTF-8">
+    <!--This is our lecture 2 content-->
+    <meta name="author" content ="Gautam">
+    <meta name="Description" content="My first HTML programming">
+    <!---To link our image to webpage to act as an icon to title bar-->
+    <link ref="image" href="html5.png" type="image/x-icon">
+    <!--to link our html code to css stylesheeet-->
+    <link ref="stylesheet" href="main.css" type="text/css">
+    <!--viewport defines the initial scale of html code according to devices if not defined then contnet allignment affected-->
+    <meta name="viewport" content="width=device-width,intial-scale=1.0">
+
+  <title>
+    My first programme!!
+  </title>
+
+  <style>
+    body{
+      background-color: #414141;
+      color:white;
+    }
+  </style>
+</head>
+<body>
+
+  <!--contains data rendered on webpage that needs to be displayed-->
+    <h1>
+      <!--heading tags used to display headings as per importance from h1 to h6 size decreases from h1 to h6 -->
+        Hello world!!
+    </h1>
+    <p>
+      <!--paragraph tag to add paragraph to html -->
+        Welcome to our HTML classes:
+        <!--breaking line it doesnt have any attribute in specific to be added to this tag lecture 3-->
+        <br>we gonna enjoy it a lot.
+        <br>What are your plans after this.
+    </p>
+    <!--Image tag we are using to add image to our webage-->
+     <img src="https://images-cdn.ubuy.co.in/633aba2608ff2c6275335967-spiral-notebook-4-pcs-a5-thick-plastic.jpg" alt="Notebook" height="100" width="100">
+
+    <p>
+      <!--To emphasize a text in a particular content or a paragraph(Lecture-3)-->
+      Hello everyone and <em>Its been a long day!!</em>
+    </p>
+    <!--horizontal rule lecture 3-->
+    <hr>
+    <h2>
+      Everything is best
+    </h2>
+    <p2>
+      <!--To make a bolder text in our content (We use Stronger in Lecture-3)-->
+        Everything is <strong>going good!!</strong>:
+        <br>its best to be better than yesterday.
+        <!--br tag used to add a line space in our code-->
+        <!--To add up space to our content we use &nbsp;(no breaking space),the more we add the more space(Lecture-3)-->
+        <br>&nbsp;Japan people are hardworking!!
+        <br>&nbsp;&nbsp;Hola everyone!!
+    </p2>
+      <p>
+    <!--Less than and greater than sign we use &lt; for less than and &gt; for greater than(Lecture -3)-->
+    &lt;&lt;&lt;Gautam trying to be best of himself&gt;&gt;&gt;
+    <!--Creating an About.html or create a hyperlink web page with other webpages to get information of author(ME) -anchor tag used here LECTURE-5-->
+     <li> <a href="about.html" >Gautam Srivastava</a></li>
+     <li> <a href="https://mail.google.com/mail/u/0/#inbox">Google mail</a></li>
+     <!--anchor tag used to create links to your page adding also it would open the same webpage(changes on same webpage) after clicking on it-->
+     <a href="https://google.com">Google</a>
+
+     <!--to open a webpage on diffrent new tab-->
+     <a href="https://google.com" target="_main">Google</a>
+
+     <!--anchor tag with a clickable pic so rather than text we are inserting an image-->
+     <a href="https://google.com"><img src="about.png"></a>
+     <!--a href acts as attribute as link ,link description and name -->
+     
+    </p>
+     
+
+    <hr>
+    <!--horizontal rule or hr tag used to display horizontal ruler ,used to separate content also it doesnt have any attribute-->
+    <!--To add up our abbreviation full form by just moving cursor to our abbreviative word(eg LPG,KFC etc)  LECTURE-3-->
+    <p>Me and my friends like to visit <abbr title="mcdonalds">mcd</abbr></p>
+    <!--We have created an abbreviation tag in order to click on the mcd that would go to mcdonalds main website LECTURE-5-->
+    <p>Me and my friends are working on <abbr title="AMAZON WEB SERVICES"><a href="https://www.aws.training/">AWS</a></abbr></p>
+
+    <!--To add an address that is highlighted in italics(LECTURE-3)-->
+    <address>
+      2379,Sainik colony<br>
+      Faridabad
+    </address>
+
+    <!--To create an ordered list (Lecture-4)-->
+
+    <hr>
+    <p>We are creating an ordered list:</p>
+
+    <ol><!--Ordered list tag-->
+      <li>Hello</li>
+      <li>How are you??</li>
+      <li>What all you do??</li>
+
+    </ol><!--Ordered list closing tag-->
+
+    <hr>
+    <!--To create an unordered list (LECTURE-4)-->
+    <p>We are creating an unordered list:</p>
+
+    <ul>
+      <li><p>Hello everyone!!</p></li>
+        <li><p>How everyone is well!!</p></li>
+
+    </ul>
+
+    <hr>
+    <!--To create a descriptive list(LECTURE-4)-->
+    <p>We are making a descriptive list</p>
+    <dl>
+
+      <dt>North Pole</dt>
+      <dd>North pole is one of the coldest places to visit on earth.</dd>
+    <!--The dd here means descriptive defination-->
+      <dt>East Africa</dt>
+      <dd>It is the world's hottest place to survive</dd>
+
+    </dl>
+
+    <!--Table tag used here to add the table it has 2 things-->
+
+    <table>
+      <!--Table row along with some row number (not displayed)-->
+      <!--used to give title to the table-->
+    <caption>Student Data</caption>
+      <tr>
+        <!--Table header th-->
+        <!--tr represents table row-->
+        <!--td represenets the table data-->
+        <td>Serial no</td>
+        <td>Name</td>
+        <td>Branch</td>
+      </tr>
+ 
+      <tr>
+        <td>1</td>
+        <td>Gautam</td>
+        <td>ENC</td>
+      </tr>
+       
+          <tr>
+            <td>2</td>
+            <td>Ronak</td>
+            <td>ENC</td>
+          </tr>
+    </table>
+
+    <table>
+
+      <tr>
+        <th>Name</th>
+      <th>Roll no.</th>
+      </tr>
+
+
+      <tr>
+        <td>gautam</td>
+        <td>21</td>
+
+      </tr>
+    </table>
+
+    <!--Usage of big and small tags to print our text in bigger or smaller format(generally the size of font)-->
+    <big>This represents to a bigger text!!</big>
+    <br>
+    <small>This represents to a smaller text!!</small>
+    <br>
+
+    <!--Image Tag having source as src and text as alt(this might not be visible on on website for now)-->
+    <img src=" https://www.google.com/search?q=cricket&sca_esv=579179295&tbm=isch&sxsrf=AM9HkKlsHJYIU-Z_4Ud6XPKgcPdgG7KBSw:1699028667898&source=lnms&sa=X&ved=2ahUKEwi-htqBn6iCAxUGTWwGHcQtCvoQ_AUoA3oECAIQBQ&biw=1536&bih=739&dpr=1.25#imgrc=8EYXu2cFHjmfwM" alt="cricket">
+    <!--revisiting image tag to add height and width to the image-->
+    <img src="about.png" height="50px" width="50px">
+    <!--To style our given text either by changing its background color or by changing text color-->
+
+    <p style="background-color:aqua">Hello Everyone!!</p><!--For change in background color-->
+    <p style="color:blue">Best of me!!</p><!--To change to color of the text-->
+    <p style="background-color:aqua;color:brown">Its not over till its over</p><!--To change background as well as text color-->
+     
+    <!--Some formatting tags like bold,italic,underlined,strike written below used to highlight text in web page-->
+    <b>Hello</b>
+    <i>World</i>
+    <u>Okay</u>
+    <s>not required</s>
+
+
+    <!--PRE tag used here to print the text as written, ignores if there is any space then space is shown as html by default doesnt count our spaces -->
+    <pre>Hello world,
+      i am noob!!,
+      Ok go for it
+    </pre>
+
+    <!--Subscript and superscript here to be used like o2 2^5 etc,majorly used in chem formulaes-->
+      
+    <p>2<sup>5</sup></p>
+    <br>
+    <p>O<sub>2</sub></p>
+
+<!--Page layout techniques-->
+    <!--Usage of header and footer-->
+
+    <!--semantic tags used so that we have clear knowledge of what they actually do-->
+    <header>
+      <h1>hello</h1>
+      <h2>education</h2>
+
+
+      <pre>
+        <p> Education       Projects     Experiences</p>
+      </pre>
+    </header>
+    
+    <!--Inside our main tag we have 3 things,section article and aside tags-->
+    
+    <main>
+      <!--section tag to add sections (divide wepage into sections)-->
+     <section>
+      education:Ymca ENC |School(DAV)
+     </section>
+     <section>
+      Experiences:Senior coordinator at samarpan and aspiring
+     </section>
+
+     <!--article tag used to add articles on webpage-->
+
+     <article>
+      My story:I am going to have fun
+     </article>
+
+     <!--for content aside man content(for example we need to add ads to our webpage like normally we see not including main content)-->
+
+     <aside>This is an aside tag here using to add ads</aside>
+    </main>
+
+    <footer>
+
+      <h1>connect when free!!
+      </h1>
+    </footer>
+   
+    <!--Div tag is a non symantic tag used to store other html elements(it acts as a container for all of them) and it is a block element as it takes full screen width-->
+    <div style="background-color:red">
+      <p>
+        Hello world,today we are going to learn about div tags
+      </p>
+      <p>Namaste</p>
+      <p>Hello</p>
+    </div> 
+
+    <div style="background-color: blue;">
+      <p>
+        Hello world,today we are going to learn about div tags
+      </p>
+      <p>Kaise ho</p>
+      <p>Bye</p>
+    </div> 
+
+    <!--span tag is a non symantic tag used to store other html elements(it acts as a container for all of them) and it is a inline element as it takes screen size width as per the requirement only-->
+    
+    <span>
+      <p>
+        Hello world
+      </p>
+      <p>
+        How is it going now
+      </p>
+    </span>
+
+    <!--forms are been used to collect information from the user like google forms-->
+    <form action="/action.php">
+      <!--input box been created to type something here-->
+      <input type="text" placeholder="Type something here">
+      <input type="password" placeholder="password">
+
+      <!--radio buttons to chose any option-->
+
+      <input type="radio" value="Class XI" name="class">Class XI
+      <input type="radio" value="Class XII" name="class">Class XII
+
+      <!--id's would distinguish two radio buttons with same values-->
+      <!--label for="id"-->
+       <label for="101">
+
+        <input type="radio" value="Class XI" name="class" id="101">Class XI
+       </label>
+
+       <label for="102">
+        <input type="radio" value="Class XII" name="class" id="102">Class XII 
+       </label>
+
+       <!--in order to select multiple options we use checkboxes-->
+       <label for="101">
+        <input type="checkbox" value="Maths" name="class" id="101">Maths
+       </label>
+
+       <label for="102">
+        <input type="checkbox" value="English" name="class" id="102">English
+       </label>
+
+       <label for="103">
+        <input type="checkbox" value="Chem" name="class" id="103">Chem
+       </label>
+
+
+       <!--feedback form created in order to take input (feedback) from our user-->
+
+       <textarea name="feedback" placeholder="Please give suggestionns" id="101">feedback</textarea>
+
+       <!--to increase the size of our form we can declare rows and cols accrodingly-->
+
+       <textarea name="feedback" placeholder="Please give suggestionns" id="101" rows=8 cols="2">feedback</textarea>
+       
+       <!--select is used as a dropdown option to select any value frm given dropdown-->
+
+       <select name="city">
+        <option value="Delhi">Delhi</option>
+        <option value="Delhi">Mumbai</option>
+        <option value="Delhi">Patna</option>
+        <option value="Delhi">Chennai</option>
+       </select>
+
+       <!--submit button used to submit any information to the backend-->
+       <input type="submit" value="Submit">
+
+       <!--to show website inside website,acts like anchor tag only we use iframe tag(we can assign height and width for the same)-->
+
+       <iframe src="https://en.wikipedia.org/wiki/Sam_Altman"></iframe>
+
+       <!--video tag used to display video on our webpage-->
+       <video width="560" height="315" src="https://www.youtube.com/watch?v=5_0YIZMQvl8">My video</video>
+        <!--use internet for video tag reference -->
+    </form>
+<style>
+
+html{
+        font-size:22px
+    }
+   
+     body{
+        background-color:#333;
+        color:whitesmoke;
+     }
+
+</style>
+
+</body>
+
+
+
+</html>
